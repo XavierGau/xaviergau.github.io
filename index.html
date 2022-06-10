@@ -15,8 +15,13 @@
     <h1>Xavier Gauci</h1>
     <h2>About Me</h2>
     <style>
+          .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
         h2 {
-            text-indent: 100px;
+            text-align-last:center;
         }
         h1 {
             text-align:center;
@@ -25,8 +30,31 @@
     <p>
         Something about me
     </p>
-    <h2>Artist Statement</h2>
-    <h2 class=useful>Publications</h2>
-
+    <div class="row">
+        <div class="column" style="background-color:#000D21;">
+          <h2>Artist Statement</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#000D21;">
+          <h2>Some of my Works</h2>
+          <h4>Poetry</h4>
+          <nav>
+            <ul>
+              <li><a href="Dream.html">Dream</a></li>
+              <li><a href="MissYou.html">I'll miss you</a></li>
+              <li><a href="loser.html">I have lost</a></li>
+            </ul>
+          </nav>
+          <h4>Fiction</h4>
+          <nav>
+            <ul>
+              <li><a href="story1.html">Story 1</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Links</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      
 </body>
 </html>
