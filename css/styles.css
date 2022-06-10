@@ -1,12 +1,12 @@
 body {
     color: white;
-    background-color: #0B1024;
+    background-color: #000D21;
     font-family: 'EB Garamond'; 
 }
 
 p {
     color: white;
-    background-color: #0B1024;
+    background-color: #000D21;
     font-family: 'EB Garamond';
 }
 .column {
@@ -14,9 +14,11 @@ p {
     width: 50%;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
+ a:link {
+    color: #6B0800;
+ }
